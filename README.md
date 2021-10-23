@@ -19,8 +19,7 @@
 	<li>Pandas, MIP</li>
   
  </ul>
-<h4>Демо</h4>
-<p>Демо сервиса доступно по адресу: http://demo.test </p>
+
 
 
 
@@ -59,14 +58,15 @@ python optimize.py
 
 ### сервис поиск быстрого оптимального решения
 
-файл для кластеризации МС - src/optimize_fast.py 
-файл оптимизатор - src/optimize_fast.py 
+<li> файл для кластеризации МС - src/clusterize.py </li>
+<li> файл оптимизатор - src/optimize_fast.py </li>
 
 запуск:
 <li>python clusterize.py</li>
 <li>python optimize_fast.py</li>
 
-РАЗРАБОТЧИКИ
+
+###РАЗРАБОТЧИКИ
 
 <h4>Мещеряков Артем d.karvallio@gmail.com </h4>
 <h4>Шульцева Ольга shultseva.olga@gmail.com </h4>
