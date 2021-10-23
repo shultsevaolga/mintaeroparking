@@ -60,10 +60,12 @@ python optimize.py
 
 <li> файл для кластеризации МС - src/clusterize.py </li>
 <li> файл оптимизатор - src/optimize_fast.py </li>
+<li> для работа алгоритма необходим файл /data/Handling_Time_Private_5round.csv</li>
 
 запуск:
 <li>python clusterize.py</li>
 <li>python optimize_fast.py</li>
+
 
 
 ###РАЗРАБОТЧИКИ

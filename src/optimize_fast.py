@@ -411,7 +411,7 @@ def main() -> None:
         for _, row in aircraft_stands_data.iterrows()
     ]
 
-    timetable_data = pd.read_csv(os.path.join(params.data_dir, "Timetable_Private_formated.csv"), sep=",", parse_dates=[1])
+    timetable_data = pd.read_csv(os.path.join(params.data_dir, "Timetable_Private.csv"), sep=",", parse_dates=['flight_datetime'])
 
     flights = [
         Flight(idx, row, aircraft_class_by_seats, handling_times_by_aircraft_type)
